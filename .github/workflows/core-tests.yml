@@ -1,0 +1,15 @@
+name: Core tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  core:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and run Sources/Core fixture tests
+        run: |
+          clang -fobjc-arc -framework Foundation Tests/CoreTests.m Sources/Core/*.m -o coretests
+          ./coretests

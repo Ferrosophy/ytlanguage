@@ -1,0 +1,9 @@
+# Build output (release dylibs are built locally by build.sh)
+dist/
+.theos/
+packages/
+obj/
+*.dSYM/
+*.deb
+coretests
+.DS_Store
