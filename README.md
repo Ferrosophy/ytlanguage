@@ -83,4 +83,6 @@ GitHub Actions 会在 macOS 上自动跑这组测试。
 - 设置分组和播放器按钮的接入方式参考了 [YTVideoOverlay](https://github.com/PoomSmart/YTVideoOverlay)、[YouPiP](https://github.com/PoomSmart/YouPiP)（MIT）。
 - 本仓库没有复制它们的源码，只声明了用到的最小接口。
 
+YTLanguage 以 [MIT 许可证](LICENSE) 发布。
+
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
